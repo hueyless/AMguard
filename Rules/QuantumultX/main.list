@@ -5,6 +5,7 @@ host,fonts.googleapis.com,DIRECT
 
 # Global
 user-agent,Argo*,PROXY
+host-suffix,imgur.com,PROXY
 host-suffix,akamaized.net,PROXY
 host-suffix,ocsp.digicert.com,PROXY
 
@@ -75,12 +76,11 @@ ip-cidr,91.108.20.0/22,PROXY
 ip-cidr,185.76.151.0/24,PROXY
 
 # Twitter
+host-suffix,twitter.com,PROXY
 host-suffix,t.co,PROXY
 host-suffix,twimg.co,PROXY
 host-suffix,twimg.com,PROXY
 host-suffix,twitpic.com,PROXY
-
-
 
 # Youtube
 user-agent,com.google.ios.youtube*,PROXY
