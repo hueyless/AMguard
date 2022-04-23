@@ -1,0 +1,29 @@
+;echo $rules | sed 's/|/\n/g' | sort | tr '\n' '|'
+;default direct connect with rules
+local.adguard.org
+*.cn
+*.edu
+!*.com.tw
+
+;google high level
+!UrlRegex: https?:\/(\/|\/[a-z0-9\-\.]+\.)google(?:apis|usercontent)?(\.[a-z\.]{2,6})(?=(\/|\:))
+
+;china level
+UrlRegex: ^https?:\/(\/|\/[a-z0-9\-\.]+\.)(?:ali|ba|btc|china|cn|so|tao|wei)([a-z0-9\-]+)(\.[a-z\.]{2,6})(?=(\/|\:))
+UrlRegex: ^https?:\/(\/|\/[a-z0-9\-\.]+\.)(?:bcebos|bilibili|csdn|douban|doubanio|hdslb|iciba|ifnews|jd|jianshu|kdslife|live|miaopai|microsoft|netease|pchome|qq|qiyi|qy|smzdm|solidot|tianyaui|tmall|tudou|tudouui|xiami|xueqiu|yicai|youku|zhihu)(\.[a-z\.]{2,6})(?=(\/|\:))
+
+;cdn level
+!UrlRegex: ^https?:\/(\/|\/[a-z0-9\-\.]+\.)(9|aws|bootstrap|dropbox|fb|front|g|li|pin|reddit|tw|yt)(?:cache|cdn|cloud|img|pic|static)(\.[a-z\.]{2,6})(?=(\/|\:))
+UrlRegex: ^https?:\/(\/|\/[a-z0-9\-\.]+\.)[a-z0-9\-]+(?:cache|cdn|cloud|img|pic|static)(\.[a-z\.]{2,6})(?=(\/|\:))
+
+
+; hit lucky list
+!UrlRegex: ^https?:\/(\/|\/[a-z0-9\-\.]+\.)(?:9gag|hk01|mobile01)(\.[a-z\.]{2,6})(?=(\/|\:))
+
+; china lucky list
+@note www.123456abc.com
+UrlRegex: ^https?:\/(\/|\/[a-z0-9\-\.]+\.)([0-9]+[a-z\-]+)(\.[a-z\.]{2,6})(?=(\/|\:))
+@note www.abc123.com
+UrlRegex: ^https?:\/(\/|\/[a-z0-9\-\.]+\.)([a-z]+[0-9]{2,5})(\.[a-z\.]{2,6})(?=(\/|\:))
+@note www.123456.com
+UrlRegex: ^https?:\/(\/|\/[a-z0-9\-\.]+\.)([0-9]{3,7})(\.[a-z\.]{2,6})(?=(\/|\:))
