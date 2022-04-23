@@ -1,0 +1,93 @@
+#Unbreak
+host,local.adguard.org,DIRECT
+host,fonts.gstatic.com,DIRECT
+host,fonts.googleapis.com,DIRECT
+
+# Global
+user-agent,Argo*,PROXY
+host-suffix,akamaized.net,PROXY
+host-suffix,ocsp.digicert.com,PROXY
+
+# Amazon
+host-keyword,amazon.co,PROXY
+host-suffix,amazonaws.com,PROXY
+
+# BBC
+host-suffix,bbc.com,PROXY
+host-suffix,bbc.co.uk,PROXY
+host-suffix,bbci.co.uk,PROXY
+
+# Cloudflare
+#https://www.cloudflare.com/ips-v4
+ip-cidr,173.245.48.0/20,PROXY
+ip-cidr,103.21.244.0/22,PROXY
+ip-cidr,103.22.200.0/22,PROXY
+ip-cidr,103.31.4.0/22,PROXY
+ip-cidr,141.101.64.0/18,PROXY
+ip-cidr,108.162.192.0/18,PROXY
+ip-cidr,190.93.240.0/20,PROXY
+ip-cidr,188.114.96.0/20,PROXY
+ip-cidr,197.234.240.0/22,PROXY
+ip-cidr,198.41.128.0/17,PROXY
+ip-cidr,162.158.0.0/15,PROXY
+ip-cidr,104.16.0.0/13,PROXY
+ip-cidr,104.24.0.0/14,PROXY
+ip-cidr,172.64.0.0/13,PROXY
+ip-cidr,131.0.72.0/22,PROXY
+
+# Github
+host-suffix,githubusercontent.com,PROXY
+host-suffix,githubusercontents.com,PROXY
+
+# Google
+host-suffix,blogger.com,PROXY
+host-suffix,google.com,PROXY
+host-suffix,ggpht.com,PROXY
+host-suffix,gstatic.com,PROXY
+host-suffix,googleapis.com,PROXY
+host-suffix,googleusercontent.com,PROXY
+host-suffix,google-analytics.com,PROXY
+host,ocsp.pki.goog,PROXY
+host,crl.pki.goog,PROXY
+
+# Netflix
+host-suffix,netflix.com,PROXY
+host-suffix,nflxext.com,PROXY
+host-suffix,nflxso.net,PROXY
+host-suffix,nflxvideo.net,PROXY
+
+# Telegram
+#https://core.telegram.org/resources/cidr.txt
+host-suffix,t.me,PROXY
+host-suffix,tdesktop.com,PROXY
+host-suffix,telegra.ph,PROXY
+host-suffix,telegram.me,PROXY
+host-suffix,telegram.org,PROXY
+host-suffix,telesco.pe,PROXY
+ip-cidr,91.108.56.0/22,PROXY
+ip-cidr,91.108.4.0/22,PROXY
+ip-cidr,91.108.8.0/22,PROXY
+ip-cidr,91.108.16.0/22,PROXY
+ip-cidr,91.108.12.0/22,PROXY
+ip-cidr,149.154.160.0/20,PROXY
+ip-cidr,91.105.192.0/23,PROXY
+ip-cidr,91.108.20.0/22,PROXY
+ip-cidr,185.76.151.0/24,PROXY
+
+# Twitter
+host-suffix,t.co,PROXY
+host-suffix,twimg.co,PROXY
+host-suffix,twimg.com,PROXY
+host-suffix,twitpic.com,PROXY
+
+
+
+# Youtube
+user-agent,com.google.ios.youtube*,PROXY
+host-suffix,ytimg.com,PROXY
+host-suffix,googlevideo.com,PROXY
+host-suffix,youtube.com,PROXY
+host-suffix,gvt0.com,PROXY
+host-suffix,gvt1.com,PROXY
+host-suffix,gvt2.com,PROXY
+host-suffix,gvt3.com,PROXY
