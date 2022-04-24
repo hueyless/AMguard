@@ -1,0 +1,31 @@
+# 9GAG
+host-suffix,9gag.com,PROXY
+host-suffix,under9.co,PROXY
+host-suffix,9cache.com,PROXY
+
+#Authy
+host-suffix,authy.com,PROXY
+
+# Dropbox
+host-suffix,dropbox.com,PROXY
+
+# Lastpass
+host-suffix,lastpass.com,PROXY
+
+# MoneyWiz
+host-suffix,syncbits.com,PROXY
+
+# WeatherPro
+host-suffix,meteogroup.de,PROXY
+host-suffix,meteogroup.com,PROXY
+
+# Sync
+host,config.resilio.com,PROXY
+
+#Website
+host-suffix,bloomberg.com,PROXY
+host-suffix,rfa.org,PROXY
+host-suffix,v2ex.com,PROXY
+host-suffix,wikipedia.org,PROXY
+host-suffix,wikisource.org,PROXY
+host-suffix,wordpress.com,PROXY
