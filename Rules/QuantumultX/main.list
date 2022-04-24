@@ -54,7 +54,7 @@ host-suffix,githubusercontents.com,PROXY
 
 # Google
 host-suffix,blogger.com,PROXY
-host-suffix,google.com,PROXY
+host-keyword,google.co,PROXY
 host-suffix,ggpht.com,PROXY
 host-suffix,gstatic.com,PROXY
 host-suffix,googleapis.com,PROXY
