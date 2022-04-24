@@ -37,6 +37,17 @@ ip-cidr,104.24.0.0/14,PROXY
 ip-cidr,172.64.0.0/13,PROXY
 ip-cidr,131.0.72.0/22,PROXY
 
+# Facebook
+host-suffix,cdninstagram.com,PROXY
+host-suffix,fb.com,PROXY
+host-suffix,fb.me,PROXY
+host-suffix,fbaddins.com,PROXY
+host-suffix,fbcdn.net,PROXY
+host-suffix,fbsbx.com,PROXY
+host-suffix,instagram.com,PROXY
+host-suffix,m.me,PROXY
+host-suffix,messenger.com,PROXY
+
 # Github
 host-suffix,githubusercontent.com,PROXY
 host-suffix,githubusercontents.com,PROXY
