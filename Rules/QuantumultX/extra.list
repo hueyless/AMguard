@@ -27,6 +27,7 @@ host,bit.ly,PROXY
 host,goo.gl,PROXY
 host,nyti.ms,PROXY
 host,t.co,PROXY
+host,youtu.be,PROXY
 
 #Website
 host-suffix,bloomberg.com,PROXY
@@ -37,3 +38,6 @@ host-suffix,v2ex.com,PROXY
 host-suffix,wikipedia.org,PROXY
 host-suffix,wikisource.org,PROXY
 host-suffix,wordpress.com,PROXY
+host-suffix,wsj.com,PROXY
+host-suffix,wsj.net,PROXY
+host-suffix,videohub.tv,PROXY
