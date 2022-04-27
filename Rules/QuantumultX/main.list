@@ -8,7 +8,14 @@ user-agent,Argo*,PROXY
 host-suffix,imgur.com,PROXY
 host-suffix,adguard.org,PROXY
 host-suffix,akamaized.net,PROXY
-host-suffix,ocsp.digicert.com,PROXY
+host,ocsp.digicert.com,PROXY
+
+# Apple
+host,ocsp2.apple.com,PROXY
+host-suffix,stocks-analytics-events.apple.com,PROXY
+host-suffix,stocks-data-service.apple.com,PROXY
+host-suffix,stocks-edge.apple.com,PROXY
+host-suffix,stocks-sparkline.apple.com,PROXY
 
 # Amazon
 host-keyword,amazon.co,PROXY
