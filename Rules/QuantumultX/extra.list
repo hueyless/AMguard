@@ -32,6 +32,7 @@ host,youtu.be,PROXY
 #Website
 host-suffix,bloomberg.com,PROXY
 host-suffix,rfa.org,PROXY
+host-suffix,rfi.fr,PROXY
 host-suffix,nyt.com,PROXY
 host-suffix,nytimes.com,PROXY
 host-suffix,v2ex.com,PROXY
