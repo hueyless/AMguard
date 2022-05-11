@@ -35,6 +35,7 @@ host-suffix,rfa.org,PROXY
 host-suffix,rfi.fr,PROXY
 host-suffix,nyt.com,PROXY
 host-suffix,nytimes.com,PROXY
+host-suffix,reuters.com,PROXY
 host-suffix,v2ex.com,PROXY
 host-suffix,wikipedia.org,PROXY
 host-suffix,wikisource.org,PROXY
