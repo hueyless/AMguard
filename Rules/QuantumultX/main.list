@@ -6,6 +6,7 @@ host,fonts.googleapis.com,DIRECT
 # Global
 user-agent,Argo*,PROXY
 host-suffix,imgur.com,PROXY
+host-suffix,gravatar.com,PROXY
 host-suffix,adguard.org,PROXY
 host-suffix,akamaized.net,PROXY
 host,ocsp.digicert.com,PROXY
