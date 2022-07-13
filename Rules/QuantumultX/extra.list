@@ -39,6 +39,7 @@ host-suffix,reuters.com,PROXY
 host-suffix,v2ex.com,PROXY
 host-suffix,wikipedia.org,PROXY
 host-suffix,wikisource.org,PROXY
+host-suffix,wikimedia.org,PROXY
 host-suffix,wordpress.com,PROXY
 host-suffix,wsj.com,PROXY
 host-suffix,wsj.net,PROXY
