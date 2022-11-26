@@ -22,6 +22,9 @@ host-suffix,meteogroup.com,PROXY
 # Sync
 host,config.resilio.com,PROXY
 
+# Tradingview
+host-suffix,tradingview.com,PROXY
+
 # sURL
 host,bit.ly,PROXY
 host,goo.gl,PROXY
