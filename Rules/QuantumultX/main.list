@@ -101,6 +101,7 @@ host-suffix,t.co,PROXY
 host-suffix,twimg.co,PROXY
 host-suffix,twimg.com,PROXY
 host-suffix,twitpic.com,PROXY
+host-suffix,pscp.tv,PROXY
 
 # Youtube
 user-agent,com.google.ios.youtube*,PROXY
