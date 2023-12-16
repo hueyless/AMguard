@@ -95,6 +95,10 @@ ip-cidr,91.105.192.0/23,PROXY
 ip-cidr,91.108.20.0/22,PROXY
 ip-cidr,185.76.151.0/24,PROXY
 
+#Tiktok
+host-suffix,tiktokv.com,PROXY
+host-suffix,tiktokcdn.com,PROXY
+
 # Twitter
 host-suffix,twitter.com,PROXY
 host-suffix,t.co,PROXY
