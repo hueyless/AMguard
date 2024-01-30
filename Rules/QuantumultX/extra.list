@@ -33,7 +33,7 @@ host,t.co,PROXY
 host,youtu.be,PROXY
 
 #ip
-ip-api.com,PROXY
+host-suffix,ip-api.com,PROXY
 
 #Website
 host-suffix,bloomberg.com,PROXY
