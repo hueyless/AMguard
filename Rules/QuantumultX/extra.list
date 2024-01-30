@@ -32,6 +32,9 @@ host,nyti.ms,PROXY
 host,t.co,PROXY
 host,youtu.be,PROXY
 
+#ip
+ip-api.com
+
 #Website
 host-suffix,bloomberg.com,PROXY
 host-suffix,rfa.org,PROXY
@@ -47,4 +50,4 @@ host-suffix,wordpress.com,PROXY
 host-suffix,wsj.com,PROXY
 host-suffix,wsj.net,PROXY
 host-suffix,videohub.tv,PROXY
-host-suffix,manhuaren.com,PROXY
+host-suffix,manhuaren.net,PROXY
