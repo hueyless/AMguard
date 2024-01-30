@@ -32,9 +32,6 @@ host,nyti.ms,PROXY
 host,t.co,PROXY
 host,youtu.be,PROXY
 
-#ip
-host-suffix,ip-api.com,PROXY
-
 #Website
 host-suffix,bloomberg.com,PROXY
 host-suffix,rfa.org,PROXY
