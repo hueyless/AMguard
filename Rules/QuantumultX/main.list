@@ -10,6 +10,7 @@ host-suffix,gravatar.com,PROXY
 host-suffix,adguard.org,PROXY
 host-suffix,akamaized.net,PROXY
 host,ocsp.digicert.com,PROXY
+ip6-cidr,::/0,DIRECT
 
 # Apple
 host,ocsp2.apple.com,PROXY
