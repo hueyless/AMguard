@@ -10,7 +10,7 @@ local.adguard.org
 
 ;china level
 UrlRegex: ^https?:\/(\/|\/[a-z0-9\-\.]+\.)(?:ali|ba|byte|china|cn|dou|so|tao|wei)([a-z0-9\-]+)(\.[a-z\.]{2,6})(?=(\/|\:))
-UrlRegex: ^https?:\/(\/|\/[a-z0-9\-\.]+\.)(?:bcebos|bilibili|csdn|hdslb|iciba|ifnews|jd|jianshu|kdslife|liba|libaclub|miaopai|microsoft|mysmth|netease|pchome|qq|qiyi|qy|smzdm|solidot|tianyaui|tmall|tudou|tudouui|xiami|xueqiu|yicai|youku|zhihu)(\.[a-z\.]{2,6})(?=(\/|\:))
+UrlRegex: ^https?:\/(\/|\/[a-z0-9\-\.]+\.)(?:bcebos|bilibili|bilivideo|csdn|hdslb|iciba|ifnews|jd|jianshu|kdslife|liba|libaclub|miaopai|microsoft|mysmth|netease|pchome|qq|qiyi|qy|smzdm|solidot|tianyaui|tmall|tudou|tudouui|xiami|xueqiu|yicai|youku|zhihu)(\.[a-z\.]{2,6})(?=(\/|\:))
 
 ;cdn level
 !UrlRegex: ^https?:\/(\/|\/[a-z0-9\-\.]+\.)(9|aws|bootstrap|dropbox|fb|front|g|li|pin|reddit|tw|yt)(?:cache|cdn|cloud|img|pic|static)(\.[a-z\.]{2,6})(?=(\/|\:))
