@@ -1,6 +1,8 @@
 ;echo $rules | sed 's/|/\n/g' | sort | tr '\n' '|'
 ;default direct connect with rules
 local.adguard.org
+injections.adguard.org
+*.kis.v2.scr.kaspersky-labs.com
 *.cn
 *.edu
 !*.com.tw
