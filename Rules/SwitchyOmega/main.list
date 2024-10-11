@@ -6,6 +6,9 @@ injections.adguard.org
 *.cn
 *.edu
 !*.com.tw
+!*.cc
+!*.xyz
+!*.top
 
 ;google high level
 !UrlRegex: https?:\/(\/|\/[a-z0-9\-\.]+\.)google(?:apis|usercontent)?(\.[a-z\.]{2,6})(?=(\/|\:))
