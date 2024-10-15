@@ -58,6 +58,7 @@ host-suffix,m.me,PROXY
 host-suffix,messenger.com,PROXY
 
 # Github
+host-suffix,github.com,PROXY
 host-suffix,githubusercontent.com,PROXY
 host-suffix,githubusercontents.com,PROXY
 
@@ -73,10 +74,16 @@ host,ocsp.pki.goog,PROXY
 host,crl.pki.goog,PROXY
 
 # Netflix
+host-suffix,fast.com,PROXY
 host-suffix,netflix.com,PROXY
+host-suffix,netflix.net,PROXY
 host-suffix,nflxext.com,PROXY
+host-suffix,nflximg.com,PROXY
+host-suffix,nflximg.net,PROXY
+host-suffix,nflxsearch.net,PROXY
 host-suffix,nflxso.net,PROXY
 host-suffix,nflxvideo.net,PROXY
+host-suffix,edgesuite.net,PROXY
 
 # Telegram
 #https://core.telegram.org/resources/cidr.txt
