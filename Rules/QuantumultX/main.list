@@ -12,6 +12,10 @@ host-suffix,akamaized.net,PROXY
 host,ocsp.digicert.com,PROXY
 ip6-cidr,2000::/3,DIRECT
 
+# Adblock
+host-suffix,easylist.to,PROXY
+host-suffix,adblockplus.org,PROXY
+
 # Apple
 host,ocsp2.apple.com,PROXY
 host-suffix,stocks-analytics-events.apple.com,PROXY
