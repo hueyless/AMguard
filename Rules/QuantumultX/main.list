@@ -63,6 +63,7 @@ host-suffix,messenger.com,PROXY
 
 # Github
 host-suffix,github.com,PROXY
+host-suffix,githubassets.com,PROXY
 host-suffix,githubusercontent.com,PROXY
 host-suffix,githubusercontents.com,PROXY
 
