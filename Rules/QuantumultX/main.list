@@ -1,6 +1,8 @@
 #Unbreak
 host,local.adguard.org,DIRECT
 host,injections.adguard.org,DIRECT
+host,recaptcha.net,DIRECT
+host,challenges.cloudflare.com,DIRECT
 host,fonts.gstatic.com,DIRECT
 host,fonts.googleapis.com,DIRECT
 
