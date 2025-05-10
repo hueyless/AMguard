@@ -32,7 +32,7 @@ host,nyti.ms,PROXY
 host,t.co,PROXY
 host,youtu.be,PROXY
 
-#Website
+# Website
 host-suffix,bloomberg.com,PROXY
 host-suffix,rfa.org,PROXY
 host-suffix,rfi.fr,PROXY
@@ -48,3 +48,8 @@ host-suffix,wsj.com,PROXY
 host-suffix,wsj.net,PROXY
 host-suffix,videohub.tv,PROXY
 host-suffix,manhuaren.net,PROXY
+#Missav
+host-suffix,surrit.com,PROXY
+host-suffix,nineyu.com,PROXY
+host-suffix,fourhoi.com,PROXY
+host-suffix,recombee.com,PROXY
