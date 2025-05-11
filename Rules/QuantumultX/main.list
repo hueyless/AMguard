@@ -1,5 +1,5 @@
 #break
-host-suffix:trackwilltrk.com,REJECT
+host-suffix,trackwilltrk.com,REJECT
 
 #Unbreak
 host,local.adguard.org,DIRECT
