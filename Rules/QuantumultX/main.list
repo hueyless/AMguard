@@ -19,6 +19,7 @@ host,ocsp.digicert.com,PROXY
 ip6-cidr,2000::/3,DIRECT
 
 # Adblock
+host-suffix,greasyfork.org,PROXY
 host-suffix,easylist.to,PROXY
 host-suffix,adblockplus.org,PROXY
 
