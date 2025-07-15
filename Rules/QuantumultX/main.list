@@ -75,6 +75,7 @@ host-suffix,githubusercontent.com,PROXY
 host-suffix,githubusercontents.com,PROXY
 
 # Google
+host-suffix,ampproject.org,PROXY
 host-suffix,blogger.com,PROXY
 host-keyword,google.co,PROXY
 host-suffix,ggpht.com,PROXY
