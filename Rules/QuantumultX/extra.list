@@ -15,6 +15,15 @@ host-suffix,lastpass.com,PROXY
 # MoneyWiz
 host-suffix,syncbits.com,PROXY
 
+# OpenAI
+host-suffix,chat.com,PROXY
+host-suffix,chatgpt.com,PROXY
+host-suffix,openai.com,PROXY
+host-suffix,sora.com,PROXY
+host-suffix,oaistatic.com,PROXY
+host-suffix,oaiusercontent.com,PROXY
+
+
 # WeatherPro
 host-suffix,meteogroup.de,PROXY
 host-suffix,meteogroup.com,PROXY
