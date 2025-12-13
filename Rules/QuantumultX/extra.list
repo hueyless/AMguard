@@ -16,12 +16,12 @@ host-suffix,lastpass.com,PROXY
 host-suffix,syncbits.com,PROXY
 
 # OpenAI
-host-suffix,chat.com,Aichat
-host-suffix,chatgpt.com,Aichat
-host-suffix,openai.com,Aichat
-host-suffix,sora.com,Aichat
-host-suffix,oaistatic.com,Aichat
-host-suffix,oaiusercontent.com,Aichat
+#host-suffix,chat.com,Aichat
+#host-suffix,chatgpt.com,Aichat
+#host-suffix,openai.com,Aichat
+#host-suffix,sora.com,Aichat
+#host-suffix,oaistatic.com,Aichat
+#host-suffix,oaiusercontent.com,Aichat
 
 # WeatherPro
 host-suffix,meteogroup.de,PROXY
