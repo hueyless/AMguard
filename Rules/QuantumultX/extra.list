@@ -1,62 +1,32 @@
-# 9GAG
-host-suffix,9cache.com,PROXY
-host-suffix,9gag.com,PROXY
-host-suffix,under9.co,PROXY
-
-#Authy
-host-suffix,authy.com,PROXY
-
-# Dropbox
-host-suffix,dropbox.com,PROXY
-
-# Lastpass
-host-suffix,lastpass.com,PROXY
-
-# MoneyWiz
-host-suffix,syncbits.com,PROXY
-
-# OpenAI
-#host-suffix,chat.com,Aichat
-#host-suffix,chatgpt.com,Aichat
-#host-suffix,openai.com,Aichat
-#host-suffix,sora.com,Aichat
-#host-suffix,oaistatic.com,Aichat
-#host-suffix,oaiusercontent.com,Aichat
-
-# WeatherPro
-host-suffix,meteogroup.de,PROXY
-host-suffix,meteogroup.com,PROXY
-
-# Sync
-host,config.resilio.com,PROXY
-
-# Tradingview
-host-suffix,tradingview.com,PROXY
-
-# sURL
-host,bit.ly,PROXY
-host,goo.gl,PROXY
-host,nyti.ms,PROXY
-host,t.co,PROXY
-host,youtu.be,PROXY
-
-# Website
-host-suffix,bloomberg.com,PROXY
-host-suffix,rfa.org,PROXY
-host-suffix,rfi.fr,PROXY
-host-suffix,nyt.com,PROXY
-host-suffix,nytimes.com,PROXY
-host-suffix,reuters.com,PROXY
-host-suffix,v2ex.com,PROXY
-host-suffix,wikipedia.org,PROXY
-host-suffix,wikisource.org,PROXY
-host-suffix,wikimedia.org,PROXY
-host-suffix,wordpress.com,PROXY
-host-suffix,wsj.com,PROXY
-host-suffix,wsj.net,PROXY
-host-suffix,videohub.tv,PROXY
-host-suffix,manhuaren.net,PROXY
-host-keyword,missav,PROXY
-host-suffix,nineyu.com,PROXY
-host-suffix,fourhoi.com,PROXY
-host-suffix,recombee.com,PROXY
+# YouTube
+#blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube
+USER-AGENT,com.google.ios.youtube*,PROXY
+host,youtubei.googleapis.com,PROXY
+host,yt3.ggpht.com,PROXY
+host-suffix,youtube.com,PROXY
+host-suffix,yt.be,PROXY
+host-suffix,ytimg.com,PROXY
+host-suffix,youtube.com.hk,PROXY
+host-suffix,ggpht.cn,PROXY
+host-suffix,ggpht.com,PROXY
+host-suffix,googlevideo.com,PROXY
+host-suffix,gvt1.com,PROXY
+host-suffix,gvt2.com,PROXY
+host-suffix,video.google.com,PROXY
+host-suffix,wide-youtube.l.google.com,PROXY
+host-suffix,withyoutube.com,PROXY
+host-suffix,youtu.be,PROXY
+host-suffix,youtube-nocookie.com,PROXY
+host-suffix,youtube-ui.l.google.com,PROXY
+host-suffix,youtubeeducation.com,PROXY
+host-suffix,youtubeembeddedplayer.googleapis.com,PROXY
+host-suffix,youtubefanfest.com,PROXY
+host-suffix,youtubegaming.com,PROXY
+host-suffix,youtubego.com,PROXY
+host-suffix,youtubei.googleapis.com,PROXY
+host-suffix,youtube.googleapis.com,PROXY
+host-suffix,youtubekids.com,PROXY
+host-suffix,youtubemobilesupport.com,PROXY
+IP-CIDR,172.110.32.0/21,PROXY
+IP-CIDR,216.73.80.0/20,PROXY
+IP6-CIDR,2620:120:e000::/40,PROXY
