@@ -75,6 +75,8 @@ host-suffix,githubusercontent.com,PROXY
 host-suffix,githubusercontents.com,PROXY
 
 # Google
+host,ocsp.pki.goog,PROXY
+host,crl.pki.goog,PROXY
 host-suffix,ampproject.org,PROXY
 host-suffix,blogger.com,PROXY
 host-keyword,google.co,PROXY
@@ -83,20 +85,12 @@ host-suffix,gstatic.com,PROXY
 host-suffix,googleapis.com,PROXY
 host-suffix,googleusercontent.com,PROXY
 host-suffix,google-analytics.com,PROXY
-host,ocsp.pki.goog,PROXY
-host,crl.pki.goog,PROXY
-
-# Netflix
-host-suffix,fast.com,PROXY
-host-suffix,netflix.com,PROXY
-host-suffix,netflix.net,PROXY
-host-suffix,nflxext.com,PROXY
-host-suffix,nflximg.com,PROXY
-host-suffix,nflximg.net,PROXY
-host-suffix,nflxsearch.net,PROXY
-host-suffix,nflxso.net,PROXY
-host-suffix,nflxvideo.net,PROXY
-host-suffix,edgesuite.net,PROXY
+host-suffix,api.ai,PROXY
+IP-CIDR,172.110.32.0/21,PROXY
+IP-CIDR,173.194.0.0/16,PROXY
+IP-CIDR,216.73.80.0/20,PROXY
+IP-CIDR,74.125.0.0/16,PROXY
+IP6-CIDR,2620:120:e000::/40,PROXY
 
 # Telegram
 #https://core.telegram.org/resources/cidr.txt
@@ -116,24 +110,48 @@ ip-cidr,91.105.192.0/23,PROXY
 ip-cidr,91.108.20.0/22,PROXY
 ip-cidr,185.76.151.0/24,PROXY
 
-#Tiktok
-host-suffix,tiktokv.com,PROXY
-host-suffix,tiktokcdn.com,PROXY
-
 # Twitter
 host-suffix,twitter.com,PROXY
+host-suffix,x.com,PROXY
 host-suffix,t.co,PROXY
 host-suffix,twimg.co,PROXY
 host-suffix,twimg.com,PROXY
 host-suffix,twitpic.com,PROXY
 host-suffix,pscp.tv,PROXY
 
-# Youtube
-user-agent,com.google.ios.youtube*,PROXY
-host-suffix,ytimg.com,PROXY
-host-suffix,googlevideo.com,PROXY
-host-suffix,youtube.com,PROXY
-host-suffix,gvt0.com,PROXY
-host-suffix,gvt1.com,PROXY
-host-suffix,gvt2.com,PROXY
-host-suffix,gvt3.com,PROXY
+#Authy
+host-suffix,authy.com,PROXY
+# Dropbox
+host-suffix,dropbox.com,PROXY
+# Lastpass
+host-suffix,lastpass.com,PROXY
+# MoneyWiz
+host-suffix,syncbits.com,PROXY
+# WeatherPro
+host-suffix,meteogroup.de,PROXY
+host-suffix,meteogroup.com,PROXY
+# Sync
+host,config.resilio.com,PROXY
+# Tradingview
+host-suffix,tradingview.com,PROXY
+
+# sURL
+host,bit.ly,PROXY
+host,goo.gl,PROXY
+host,nyti.ms,PROXY
+host,t.co,PROXY
+
+# Website
+host-suffix,bloomberg.com,PROXY
+host-suffix,rfa.org,PROXY
+host-suffix,rfi.fr,PROXY
+host-suffix,nyt.com,PROXY
+host-suffix,nytimes.com,PROXY
+host-suffix,reuters.com,PROXY
+host-suffix,v2ex.com,PROXY
+host-suffix,wikipedia.org,PROXY
+host-suffix,wikisource.org,PROXY
+host-suffix,wikimedia.org,PROXY
+host-suffix,wordpress.com,PROXY
+host-suffix,wsj.com,PROXY
+host-suffix,wsj.net,PROXY
