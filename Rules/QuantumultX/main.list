@@ -65,10 +65,11 @@ host-suffix,m.me,PROXY
 host-suffix,messenger.com,PROXY
 
 # Github
+host-suffix,github.io,PROXY
 host-suffix,github.com,PROXY
 host-suffix,githubassets.com,PROXY
 host-suffix,githubusercontent.com,PROXY
-host-suffix,githubusercontents.com,PROXY
+host-suffix,github-cloud.s3.amazonaws.com,PROXY
 
 # Google
 host,ocsp.pki.goog,PROXY
