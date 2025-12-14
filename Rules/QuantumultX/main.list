@@ -14,7 +14,6 @@ user-agent,Argo*,PROXY
 host-suffix,imgur.com,PROXY
 host-suffix,gravatar.com,PROXY
 host-suffix,adguard.org,PROXY
-host-suffix,akamaized.net,PROXY
 host,ocsp.digicert.com,PROXY
 ip6-cidr,2000::/3,DIRECT
 
@@ -23,16 +22,13 @@ host-suffix,greasyfork.org,PROXY
 host-suffix,easylist.to,PROXY
 host-suffix,adblockplus.org,PROXY
 
-# Apple
-host,ocsp2.apple.com,PROXY
-host-suffix,stocks-analytics-events.apple.com,PROXY
-host-suffix,stocks-data-service.apple.com,PROXY
-host-suffix,stocks-edge.apple.com,PROXY
-host-suffix,stocks-sparkline.apple.com,PROXY
-
-# Amazon
-host-keyword,amazon.co,PROXY
-host-suffix,amazonaws.com,PROXY
+# Akamai
+host-suffix,akamai.com,PROXY
+host-suffix,akamai.net,PROXY
+host-suffix,akamaiedge.net,PROXY
+host-suffix,akamaihd.net,PROXY
+host-suffix,akamaistream.net,PROXY
+host-suffix,akamaized.net,PROXY
 
 # BBC
 host-suffix,bbc.com,PROXY
